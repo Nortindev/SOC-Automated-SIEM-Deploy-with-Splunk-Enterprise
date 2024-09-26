@@ -34,12 +34,31 @@ This project provides an automated script to deploy **Splunk Enterprise** on a V
 
 ### Steps to Deploy Splunk Enterprise and Ingest Tutorial Data
 
-1. Download the `deploy_splunk_with_data.sh` script and execute it:
-   ```bash
-   curl -O https://raw.githubusercontent.com/Nortindev/SOC-Automated-SIEM-Deploy-with-Splunk-Enterprise/refs/heads/main/deploy_splunk_with_data.sh ; bash deploy_splunk_with_data.sh
-   ```
-2. If you wish to deploy Splunk Enterpise ***WITHOUT THE DATA***, use this script instead:
+1. If you wish to deploy Splunk Enterpise ***WITHOUT THE DATA***, use this script:
    ```bash
    curl -O https://raw.githubusercontent.com/Nortindev/SOC-Automated-SIEM-Deploy-with-Splunk-Enterprise/refs/heads/main/deploy_splunk_without_data.sh ; bash deploy_splunk_without_data.sh
    ```
+
+***The installation will begin***
+
+![Part1](images/install-1.png)
+
+***You can setup your user and password***:
+
+![Part2](images/install-2.png)
+
+***Done! Now you can already login to Splunk Enteprise on your VPS IP, make sure to have port 8000 open, http://VPS IP:8000***
+
+![Part4](images/install-4.png)
+
+![Part5](images/install-5.jpeg)
+
+![Part6](images/install-6.png)
+
+
+***DISCLAIMER**
+
+Please note that the license which is agreed to install with this script is just the trial version made available by Splunk for training purposes. If you wish to aquire the full license that has more features, please do so in the official site: https://www.splunk.com/en_us/products/splunk-enterprise.html
+
+
 
