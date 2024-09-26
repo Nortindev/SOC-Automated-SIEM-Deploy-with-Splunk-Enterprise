@@ -28,7 +28,7 @@ This project provides an automated script to deploy **Splunk Enterprise** on a V
 
 ## Script Usage
 
-### Steps to Deploy Splunk Enterprise and Ingest Tutorial Data
+### Steps to Deploy Splunk Enterprise
 
 1. If you wish to deploy Splunk Enterpise ***WITHOUT DATA***, use this script:
    ```bash
