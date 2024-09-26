@@ -38,7 +38,7 @@ This project provides an automated script to deploy **Splunk Enterprise** on a V
    ```bash
    curl -O https://raw.githubusercontent.com/Nortindev/SOC-Automated-SIEM-Deploy-with-Splunk-Enterprise/refs/heads/main/deploy_splunk_with_data.sh?token=GHSAT0AAAAAACYCVXARCTLHKNRYJLDANPPIZXVRXEA ; bash deploy_splunk_with_data.sh
    ```
-2. If you wish to deploy Splunk Enterpise without the data, use this script instead:
+2. If you wish to deploy Splunk Enterpise ***WITHOUT THE DATA***, use this script instead:
    ```bash
    curl -O https://raw.githubusercontent.com/Nortindev/SOC-Automated-SIEM-Deploy-with-Splunk-Enterprise/refs/heads/main/deploy_splunk_without_data.sh?token=GHSAT0AAAAAACYCVXARIDSJBVNCKDE2Q6X4ZXVRZTA ; bash deploy_splunk_without_data.sh
    ```
